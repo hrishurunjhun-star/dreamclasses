@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Classes - Dream. Learn. Achieve.</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f4f4f4; 
+            background-image: url('apple books.jpg'); 
+            background-size: cover; 
+            background-attachment: fixed; 
+            background-blend-mode: overlay; 
+            background-color: rgba(244, 244, 244, 0.8); 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+        }
+        header { 
+            background-color: rgba(51, 51, 51, 0.9); 
+            background-image: url('education.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-blend-mode: overlay; 
+            color: white; 
+            text-align: center; 
+            padding: 1rem; 
+        }
+        nav { background-color:black ; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; }
+        .content { flex: 1; }
+        section { padding: 2rem; max-width: 1200px; margin: auto; background-color: rgba(255, 255, 255, 0.9); border-radius: 8px; margin-bottom: 1rem; }
+        .hero { background-size: cover; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); border-radius: 8px; }
+        .course-item { width: 100%; text-align: center; border: 1px solid #ddd; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 8px; margin-bottom: 1rem; }
+        .course-item img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+        .courses-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+        .contact-details { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; }
+        .contact-details p { margin: 0.5rem 0; }
+        footer { background-color: rgba(51, 51, 51, 0.9); color: white; text-align: center; padding: 1rem; position: relative; margin-top: auto; }
+        footer::before { content: ""; background-image: url('IMG-20260203-WA00000.jpg'); background-size: contain; background-repeat: no-repeat; position: absolute; top: 10px; left: 10px; width: 100px; height: 50px; opacity: 0.5; }
+        a { color: #007bff; }
+    <style>
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     gap: 40px;   
+    margin-top: 20px;
+}
+
+.course-item {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.course-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.courses-grid {
+    gap: 40px ;
+}
+
+.course-item {
+    padding: 15px ;
+    border-radius: 10px ;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dream Classes</h1>
+        <p>Dream. Learn. Achieve.</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+<div class="content">
+    <section id="home" class="hero" style="background-image: url('IMG-20260203-WA0010.jpg');">
+        <div>
+            <h2>Welcome to Dream Classes</h2>
+            <p>Your journey to success starts here. Expert tuition for all grades.</p>
+        </div>
+    </section>
+<section id="about">
+    <h2>About Us</h2>
+    <img src="IMG-20260203-WA0000.jpg" style="float: left; margin-right: 1rem; margin-top: 10px; width: 25%; border-radius: 8px;">
+    <p style="text-align: left; margin-top: -150px; font-size: 22px;">
+    <br><br><br><br><br><br><br><br><br><br>
+    Why Choose Us?
+    <br>
+    Dream Classes is a structured and student-focused educational institute committed to delivering high-quality academic guidance. We offer well-designed courses in Mathematics, Science, Social Science, and foundational subjects, aimed at strengthening core concepts and improving academic performance. Our teaching approach combines conceptual clarity, regular assessments, and personalized doubt-solving sessions to ensure consistent progress. With a disciplined learning environment and experienced mentorship, Dream Classes supports students in building confidence and achieving excellence in their examinations.
+    </p>
+    <br><br><br><br><br><br>
+</section>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+    <div class="courses-grid">
+        <div class="course-item">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80" alt="Mathematics Tuition">
+            <br>
+            <h3>Mathematics</h3>
+            <p>Master math concepts for classes 6 to 10. Build a strong foundation in algebra, geometry, and more.</p>
+        </div>
+        <div class="course-item">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80" alt="Test Prep">
+            <br>
+            <h3>Test Prep (Board Exams, Foundation)</h3>
+            <p>Comprehensive tution for board exams and foundation courses to prepare for competitive exams.</p>
+        </div>
+        <div class="course-item">
+            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80" alt="Science Tuition">
+            <br>
+            <h3>Science</h3>
+            <p>Explore physics, chemistry, and biology for classes 6 to 10 with interactive lessons.</p>
+        </div>
+        <div class="course-item">
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80" alt="Social Science Tuition">
+            <br>
+            <h3>Social Science</h3>
+            <p>Learn history, geography, civics for classes 6 to 10.</p>
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <h2>Our Features</h2>
+    <img src="IMG-20260203-WA00090.jpg" alt="Study Environment" style="float: left; margin-right: 2rem; width: 25%; border-radius: 8px;">
+    <ul>
+        <li>Study rooms for focused learning environments.</li>
+        <br>
+        <li>Doubt sessions: Personal and group options available.</li>
+        <br>
+        <li>Regular classes to build consistent knowledge.</li>
+        <br>
+        <li>Online and offline sessions: Personal and group formats provided.</li>
+        <br>
+        <li>Test series for exam preparation and assessment.</li>
+        <br>
+        <li>Printed notes and unlimited PDFs for comprehensive study materials.</li>
+        <br>
+        <li>Extensive study content tailored to curriculum needs.</li>
+        <br><br><br><br>
+    </ul>
+</section>
+
+<section id="contact">
+<div style="margin-left: 40px;">
+    <h2>Contact Us</h2>
+    <img src="IMG-20260203-WA0018.jpg" alt="Classroom" style="float: right; margin-right: 150px; 1rem; width: 35%; border-radius: 8px;">
+    <div class="contact-details">
+        <p>Address: A-93 Samta Nagar, Bikaner 334001, Rajasthan</p>
+        <br>
+        <p>Phone: 9588809767</p>
+        <br>
+        <p>Email: kamras29@gmail.com</p>
+        <br>
+        <p>Follow us on social media for more updates and tips:</p>
+        <br>
+        <p>YouTube: <a href="http://www.youtube.com/@Harshitkamra07" target="_blank">http://www.youtube.com/@Harshitkamra07</a></p>
+        <br>
+        <p>Instagram: <a href="https://www.instagram.com/dream__classes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+https://www.instagram.com/dream__classes</a></p>
+        <br>
+        <p>Telegram: <a href="https://t.me/MATHSMANIACLASSX" target="_blank">https://t.me/MATHSMANIACLASSX</a></p>
+        <br>
+</div>
+        <br><br><br><br><br><br>
+    </div>
+</section>
+
+</div>
+<footer>
+    <p>&copy; 2020 Dream Classes. Dream. Learn. Achieve. | Follow us on <a href="http://www.youtube.com/@Harshitkamra07" target="_blank">YouTube</a>, <a href="https://www.instagram.com/dream__classes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>, and <a href="https://t.me/MATHSMANIACLASSX" target="_blank">Telegram</a>.</p>
+</footer>
+</body>
+</html>
